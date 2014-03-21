@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2013-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2013-06 http://www.openmicroscopy.org/Schemas/OME/2013-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1 http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1/ome.xsd">
     <Instrument ID="Instrument:0">
         <Microscope Model="TCS SP5" Type="Other"/>
         <Objective Correction="UV" ID="Objective:0:0" Immersion="Oil" LensNA="1.4" Model="HCX PL APO lambda blue" NominalMagnification="63.0" SerialNumber="11506192"/>
@@ -23,28 +23,28 @@
     <Instrument ID="Instrument:2">
         <Microscope Model="TCS SP5" Type="Other"/>
         <LightSource ID="LightSource:2:0">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="405"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:1">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="458"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="458.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:2">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="476"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="476.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:3">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="488"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:4">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="496"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="496.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:5">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="514"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="514.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:6">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="543"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="543.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:7">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="633"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="633.0"/>
         </LightSource>
         <Detector ID="Detector:2:0" Model="PMT 1" Offset="0.466666666666669" Type="PMT" Zoom="1.0"/>
         <Detector ID="Detector:2:1" Model="PMT 2" Offset="0.0" Type="PMT" Zoom="1.0"/>
@@ -80,28 +80,28 @@
     <Instrument ID="Instrument:4">
         <Microscope Model="TCS SP5" Type="Other"/>
         <LightSource ID="LightSource:4:0">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="405"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:4:1">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="458"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="458.0"/>
         </LightSource>
         <LightSource ID="LightSource:4:2">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="476"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="476.0"/>
         </LightSource>
         <LightSource ID="LightSource:4:3">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="488"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:4:4">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="496"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="496.0"/>
         </LightSource>
         <LightSource ID="LightSource:4:5">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="514"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="514.0"/>
         </LightSource>
         <LightSource ID="LightSource:4:6">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="543"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="543.0"/>
         </LightSource>
         <LightSource ID="LightSource:4:7">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="633"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="633.0"/>
         </LightSource>
         <Detector ID="Detector:4:0" Model="PMT 4" Offset="0.0" Type="PMT" Zoom="3.8750036954915"/>
         <Detector ID="Detector:4:1" Model="PMT 4" Offset="0.0" Type="PMT" Zoom="3.8750036954915"/>
@@ -155,28 +155,28 @@
     <Instrument ID="Instrument:8">
         <Microscope Model="TCS SP5" Type="Other"/>
         <LightSource ID="LightSource:8:0">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="405"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:8:1">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="458"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="458.0"/>
         </LightSource>
         <LightSource ID="LightSource:8:2">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="476"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="476.0"/>
         </LightSource>
         <LightSource ID="LightSource:8:3">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="488"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:8:4">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="496"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="496.0"/>
         </LightSource>
         <LightSource ID="LightSource:8:5">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="514"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="514.0"/>
         </LightSource>
         <LightSource ID="LightSource:8:6">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="543"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="543.0"/>
         </LightSource>
         <LightSource ID="LightSource:8:7">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="633"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="633.0"/>
         </LightSource>
         <Detector ID="Detector:8:0" Model="PMT 1" Offset="0.38666666666667" Type="PMT" Zoom="1.0"/>
         <Detector ID="Detector:8:1" Model="PMT 2" Offset="-1.48666666666666" Type="PMT" Zoom="1.0"/>
@@ -199,28 +199,28 @@
     <Instrument ID="Instrument:9">
         <Microscope Model="TCS SP5" Type="Other"/>
         <LightSource ID="LightSource:9:0">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="405"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:9:1">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="458"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="458.0"/>
         </LightSource>
         <LightSource ID="LightSource:9:2">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="476"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="476.0"/>
         </LightSource>
         <LightSource ID="LightSource:9:3">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="488"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:9:4">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="496"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="496.0"/>
         </LightSource>
         <LightSource ID="LightSource:9:5">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="514"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="514.0"/>
         </LightSource>
         <LightSource ID="LightSource:9:6">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="543"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="543.0"/>
         </LightSource>
         <LightSource ID="LightSource:9:7">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="633"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="633.0"/>
         </LightSource>
         <Detector ID="Detector:9:0" Model="PMT 1" Offset="0.38666666666667" Type="PMT" Zoom="1.0"/>
         <Detector ID="Detector:9:1" Model="PMT 2" Offset="-1.48666666666666" Type="PMT" Zoom="1.0"/>
@@ -243,28 +243,28 @@
     <Instrument ID="Instrument:10">
         <Microscope Model="TCS SP5" Type="Other"/>
         <LightSource ID="LightSource:10:0">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="405"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:10:1">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="458"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="458.0"/>
         </LightSource>
         <LightSource ID="LightSource:10:2">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="476"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="476.0"/>
         </LightSource>
         <LightSource ID="LightSource:10:3">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="488"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:10:4">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="496"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="496.0"/>
         </LightSource>
         <LightSource ID="LightSource:10:5">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="514"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="514.0"/>
         </LightSource>
         <LightSource ID="LightSource:10:6">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="543"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="543.0"/>
         </LightSource>
         <LightSource ID="LightSource:10:7">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="633"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="633.0"/>
         </LightSource>
         <Detector ID="Detector:10:0" Model="PMT 1" Offset="0.38666666666667" Type="PMT" Zoom="1.0"/>
         <Detector ID="Detector:10:1" Model="PMT 2" Offset="-1.48666666666666" Type="PMT" Zoom="1.0"/>
@@ -287,28 +287,28 @@
     <Instrument ID="Instrument:11">
         <Microscope Model="TCS SP5" Type="Other"/>
         <LightSource ID="LightSource:11:0">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="405"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:11:1">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="458"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="458.0"/>
         </LightSource>
         <LightSource ID="LightSource:11:2">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="476"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="476.0"/>
         </LightSource>
         <LightSource ID="LightSource:11:3">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="488"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:11:4">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="496"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="496.0"/>
         </LightSource>
         <LightSource ID="LightSource:11:5">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="514"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="514.0"/>
         </LightSource>
         <LightSource ID="LightSource:11:6">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="543"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="543.0"/>
         </LightSource>
         <LightSource ID="LightSource:11:7">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="633"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="633.0"/>
         </LightSource>
         <Detector ID="Detector:11:0" Model="PMT 1" Offset="0.38666666666667" Type="PMT" Zoom="1.0"/>
         <Detector ID="Detector:11:1" Model="PMT 2" Offset="-1.48666666666666" Type="PMT" Zoom="1.0"/>
@@ -421,26 +421,26 @@
         <InstrumentRef ID="Instrument:2"/>
         <ObjectiveSettings ID="Objective:2:0" RefractiveIndex="1.0"/>
         <Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:2" Interleaved="false" PhysicalSizeX="1.513671875" PhysicalSizeY="1.513671875" PhysicalSizeZ="11.0530826918882" SignificantBits="8" SizeC="4" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="25" Type="uint8">
-            <Channel Color="65535" ExcitationWavelength="405" ID="Channel:2:0" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
+            <Channel Color="65535" ExcitationWavelength="405.0" ID="Channel:2:0" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:2:0"/>
                 <DetectorSettings Gain="517.776760509651" ID="Detector:2:0" Offset="0.466666666666669"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:2:4"/>
                 </LightPath>
             </Channel>
-            <Channel Color="16711935" ExcitationWavelength="488" ID="Channel:2:1" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
+            <Channel Color="16711935" ExcitationWavelength="488.0" ID="Channel:2:1" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.61997193" ID="LightSource:2:3"/>
                 <DetectorSettings Gain="415.503166247044" ID="Detector:2:1" Offset="0.0"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:2:5"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-1" ExcitationWavelength="405" ID="Channel:2:2" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
+            <Channel Color="-1" ExcitationWavelength="405.0" ID="Channel:2:2" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:2:0"/>
                 <DetectorSettings Gain="285.839627679866" ID="Detector:2:2" Offset="1.18000000000001"/>
                 <LightPath/>
             </Channel>
-            <Channel Color="-16776961" ExcitationWavelength="633" ID="Channel:2:3" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
+            <Channel Color="-16776961" ExcitationWavelength="633.0" ID="Channel:2:3" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.5199902" ID="LightSource:2:7"/>
                 <DetectorSettings Gain="382.658121614405" ID="Detector:2:3" Offset="0.0"/>
                 <LightPath>
@@ -567,14 +567,14 @@
         <InstrumentRef ID="Instrument:4"/>
         <ObjectiveSettings ID="Objective:4:0" RefractiveIndex="1.0"/>
         <Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:4" Interleaved="false" PhysicalSizeX="0.78124921875" PhysicalSizeY="0.78125" SignificantBits="8" SizeC="2" SizeT="1" SizeX="512" SizeY="512" SizeZ="1" Type="uint8">
-            <Channel Color="-16776961" ExcitationWavelength="405" ID="Channel:4:0" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
+            <Channel Color="-16776961" ExcitationWavelength="405.0" ID="Channel:4:0" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:4:0"/>
                 <DetectorSettings Gain="362.058442053864" ID="Detector:4:0" Offset="0.0"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:4:5"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16776961" ExcitationWavelength="633" ID="Channel:4:1" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
+            <Channel Color="-16776961" ExcitationWavelength="633.0" ID="Channel:4:1" Name="" PinholeSize="106.08964270380099" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.5599707" ID="LightSource:4:7"/>
                 <DetectorSettings Gain="402.265964751659" ID="Detector:4:1" Offset="0.0"/>
                 <LightPath>
@@ -659,28 +659,28 @@
         <InstrumentRef ID="Instrument:8"/>
         <ObjectiveSettings ID="Objective:8:0" RefractiveIndex="1.0"/>
         <Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:8" Interleaved="false" PhysicalSizeX="3.02734375" PhysicalSizeY="3.02734375" SignificantBits="8" SizeC="4" SizeT="1" SizeX="512" SizeY="512" SizeZ="1" Type="uint8">
-            <Channel Color="65535" ExcitationWavelength="405" ID="Channel:8:0" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="65535" ExcitationWavelength="405.0" ID="Channel:8:0" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:8:0"/>
                 <DetectorSettings Gain="407.434958419165" ID="Detector:8:0" Offset="0.38666666666667"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:8:0"/>
                 </LightPath>
             </Channel>
-            <Channel Color="16711935" ExcitationWavelength="488" ID="Channel:8:1" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="16711935" ExcitationWavelength="488.0" ID="Channel:8:1" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:8:3"/>
                 <DetectorSettings Gain="434.634164950027" ID="Detector:8:1" Offset="-1.48666666666666"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:8:1"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16711681" ExcitationWavelength="543" ID="Channel:8:2" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="-16711681" ExcitationWavelength="543.0" ID="Channel:8:2" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:8:6"/>
                 <DetectorSettings Gain="535.915922789349" ID="Detector:8:2" Offset="-0.546666666666667"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:8:2"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16776961" ExcitationWavelength="633" ID="Channel:8:3" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="-16776961" ExcitationWavelength="633.0" ID="Channel:8:3" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:8:7"/>
                 <DetectorSettings Gain="556.496528572519" ID="Detector:8:3" Offset="-0.233333333333334"/>
                 <LightPath>
@@ -699,28 +699,28 @@
         <InstrumentRef ID="Instrument:9"/>
         <ObjectiveSettings ID="Objective:9:0" RefractiveIndex="1.0"/>
         <Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:9" Interleaved="false" PhysicalSizeX="1.513671875" PhysicalSizeY="1.513671875" SignificantBits="8" SizeC="4" SizeT="1" SizeX="512" SizeY="512" SizeZ="1" Type="uint8">
-            <Channel Color="65535" ExcitationWavelength="405" ID="Channel:9:0" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="65535" ExcitationWavelength="405.0" ID="Channel:9:0" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:9:0"/>
                 <DetectorSettings Gain="407.434958419165" ID="Detector:9:0" Offset="0.38666666666667"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:9:0"/>
                 </LightPath>
             </Channel>
-            <Channel Color="16711935" ExcitationWavelength="488" ID="Channel:9:1" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="16711935" ExcitationWavelength="488.0" ID="Channel:9:1" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:9:3"/>
                 <DetectorSettings Gain="434.634164950027" ID="Detector:9:1" Offset="-1.48666666666666"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:9:1"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16711681" ExcitationWavelength="543" ID="Channel:9:2" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="-16711681" ExcitationWavelength="543.0" ID="Channel:9:2" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:9:6"/>
                 <DetectorSettings Gain="535.915922789349" ID="Detector:9:2" Offset="-0.546666666666667"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:9:2"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16776961" ExcitationWavelength="633" ID="Channel:9:3" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="-16776961" ExcitationWavelength="633.0" ID="Channel:9:3" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:9:7"/>
                 <DetectorSettings Gain="556.496528572519" ID="Detector:9:3" Offset="-0.233333333333334"/>
                 <LightPath>
@@ -739,28 +739,28 @@
         <InstrumentRef ID="Instrument:10"/>
         <ObjectiveSettings ID="Objective:10:0" RefractiveIndex="1.518"/>
         <Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:10" Interleaved="false" PhysicalSizeX="0.7568359375" PhysicalSizeY="0.7568359375" SignificantBits="8" SizeC="4" SizeT="1" SizeX="512" SizeY="512" SizeZ="1" Type="uint8">
-            <Channel Color="65535" ExcitationWavelength="405" ID="Channel:10:0" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="65535" ExcitationWavelength="405.0" ID="Channel:10:0" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:10:0"/>
                 <DetectorSettings Gain="541.275654230564" ID="Detector:10:0" Offset="0.38666666666667"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:10:0"/>
                 </LightPath>
             </Channel>
-            <Channel Color="16711935" ExcitationWavelength="488" ID="Channel:10:1" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="16711935" ExcitationWavelength="488.0" ID="Channel:10:1" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:10:3"/>
                 <DetectorSettings Gain="541.027695124743" ID="Detector:10:1" Offset="-1.48666666666666"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:10:1"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16711681" ExcitationWavelength="543" ID="Channel:10:2" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="-16711681" ExcitationWavelength="543.0" ID="Channel:10:2" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:10:6"/>
                 <DetectorSettings Gain="444.743266956588" ID="Detector:10:2" Offset="-0.546666666666667"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:10:2"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16776961" ExcitationWavelength="633" ID="Channel:10:3" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="-16776961" ExcitationWavelength="633.0" ID="Channel:10:3" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:10:7"/>
                 <DetectorSettings Gain="1080.62485694667" ID="Detector:10:3" Offset="-0.233333333333334"/>
                 <LightPath>
@@ -779,28 +779,28 @@
         <InstrumentRef ID="Instrument:11"/>
         <ObjectiveSettings ID="Objective:11:0" RefractiveIndex="1.518"/>
         <Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:11" Interleaved="false" PhysicalSizeX="0.7568359375" PhysicalSizeY="0.7568359375" SignificantBits="8" SizeC="4" SizeT="1" SizeX="512" SizeY="512" SizeZ="1" Type="uint8">
-            <Channel Color="65535" ExcitationWavelength="405" ID="Channel:11:0" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="65535" ExcitationWavelength="405.0" ID="Channel:11:0" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:11:0"/>
                 <DetectorSettings Gain="541.275654230564" ID="Detector:11:0" Offset="0.38666666666667"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:11:0"/>
                 </LightPath>
             </Channel>
-            <Channel Color="16711935" ExcitationWavelength="488" ID="Channel:11:1" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="16711935" ExcitationWavelength="488.0" ID="Channel:11:1" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.7999756" ID="LightSource:11:3"/>
                 <DetectorSettings Gain="541.027695124743" ID="Detector:11:1" Offset="-1.48666666666666"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:11:1"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16711681" ExcitationWavelength="543" ID="Channel:11:2" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="-16711681" ExcitationWavelength="543.0" ID="Channel:11:2" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:11:6"/>
                 <DetectorSettings Gain="444.743266956588" ID="Detector:11:2" Offset="-0.546666666666667"/>
                 <LightPath>
                     <EmissionFilterRef ID="Filter:11:2"/>
                 </LightPath>
             </Channel>
-            <Channel Color="-16776961" ExcitationWavelength="633" ID="Channel:11:3" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
+            <Channel Color="-16776961" ExcitationWavelength="633.0" ID="Channel:11:3" Name="" PinholeSize="600.000028498471" SamplesPerPixel="1">
                 <LightSourceSettings Attenuation="0.6999939" ID="LightSource:11:7"/>
                 <DetectorSettings Gain="1080.62485694667" ID="Detector:11:3" Offset="-0.233333333333334"/>
                 <LightPath>
