@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2013-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2013-06 http://www.openmicroscopy.org/Schemas/OME/2013-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1 http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1/ome.xsd">
     <Experimenter ID="Experimenter:0" UserName="christian"/>
     <Instrument ID="Instrument:0">
         <LightSource ID="LightSource:0:0" Model="Argon/2">
-            <Laser LaserMedium="Ar" Type="Gas" Wavelength="488"/>
+            <Laser LaserMedium="Ar" Type="Gas" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:0:1" Model="HeNe543">
             <Laser LaserMedium="HeNe" Type="Gas"/>
@@ -23,13 +23,13 @@
     </Instrument>
     <Instrument ID="Instrument:1">
         <LightSource ID="LightSource:1:0" Model="Argon/2">
-            <Laser LaserMedium="Ar" Type="Gas" Wavelength="405"/>
+            <Laser LaserMedium="Ar" Type="Gas" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:1:1" Model="HeNe543">
-            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="543"/>
+            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="543.0"/>
         </LightSource>
         <LightSource ID="LightSource:1:2" Model="HeNe633">
-            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="488"/>
+            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:1:3" Model="Diode 405-30">
             <Laser LaserMedium="Other" Type="Other"/>
@@ -60,13 +60,13 @@
     </Instrument>
     <Instrument ID="Instrument:2">
         <LightSource ID="LightSource:2:0" Model="Argon/2">
-            <Laser LaserMedium="Ar" Type="Gas" Wavelength="405"/>
+            <Laser LaserMedium="Ar" Type="Gas" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:1" Model="HeNe543">
-            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="488"/>
+            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:2:2" Model="Diode 405-30">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="543"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="543.0"/>
         </LightSource>
         <Detector AmplificationGain="1.0" Gain="485.0" ID="Detector:2:0" Type="PMT" Zoom="2.0"/>
         <Detector AmplificationGain="1.0" Gain="743.0" ID="Detector:2:1" Type="PMT" Zoom="2.0"/>
@@ -94,7 +94,7 @@
     </Instrument>
     <Instrument ID="Instrument:3">
         <LightSource ID="LightSource:3:0" Model="HeNe543">
-            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="543"/>
+            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="543.0"/>
         </LightSource>
         <Detector AmplificationGain="1.0" Gain="310.0" ID="Detector:3:0" Type="PMT" Zoom="1.0"/>
         <Objective Correction="Fluar" ID="Objective:3:0" Immersion="Other" Iris="false" LensNA="0.3" NominalMagnification="10.0"/>
@@ -107,7 +107,7 @@
     </Instrument>
     <Instrument ID="Instrument:4">
         <LightSource ID="LightSource:4:0" Model="Argon/2">
-            <Laser LaserMedium="Ar" Type="Gas" Wavelength="488"/>
+            <Laser LaserMedium="Ar" Type="Gas" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:4:1" Model="HeNe543">
             <Laser LaserMedium="HeNe" Type="Gas"/>
@@ -126,7 +126,7 @@
     </Instrument>
     <Instrument ID="Instrument:5">
         <LightSource ID="LightSource:5:0" Model="Argon/2">
-            <Laser LaserMedium="Ar" Type="Gas" Wavelength="488"/>
+            <Laser LaserMedium="Ar" Type="Gas" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:5:1" Model="HeNe543">
             <Laser LaserMedium="HeNe" Type="Gas"/>
@@ -146,13 +146,13 @@
     </Instrument>
     <Instrument ID="Instrument:6">
         <LightSource ID="LightSource:6:0" Model="Argon/2">
-            <Laser LaserMedium="Ar" Type="Gas" Wavelength="405"/>
+            <Laser LaserMedium="Ar" Type="Gas" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:6:1" Model="HeNe543">
-            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="488"/>
+            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="488.0"/>
         </LightSource>
         <LightSource ID="LightSource:6:2" Model="Diode 405-30">
-            <Laser LaserMedium="Other" Type="Other" Wavelength="543"/>
+            <Laser LaserMedium="Other" Type="Other" Wavelength="543.0"/>
         </LightSource>
         <Detector AmplificationGain="1.0" Gain="485.0" ID="Detector:6:0" Type="PMT" Zoom="2.0"/>
         <Detector AmplificationGain="1.0" Gain="743.0" ID="Detector:6:1" Type="PMT" Zoom="2.0"/>
@@ -180,10 +180,10 @@
     </Instrument>
     <Instrument ID="Instrument:7">
         <LightSource ID="LightSource:7:0" Model="HeNe543">
-            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="405"/>
+            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="405.0"/>
         </LightSource>
         <LightSource ID="LightSource:7:1" Model="HeNe633">
-            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="633"/>
+            <Laser LaserMedium="HeNe" Type="Gas" Wavelength="633.0"/>
         </LightSource>
         <LightSource ID="LightSource:7:2" Model="Diode 405-30">
             <Laser LaserMedium="Other" Type="Other"/>
