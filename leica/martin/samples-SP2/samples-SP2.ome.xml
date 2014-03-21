@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2013-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2013-06 http://www.openmicroscopy.org/Schemas/OME/2013-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1 http://www.openmicroscopy.org/Schemas/OME/2013-10-dev-1/ome.xsd">
     <Instrument ID="Instrument:0">
         <Detector ID="Detector:0:0" Offset="-34.599999999999994" Type="PMT" Voltage="742.0867526377491"/>
         <Detector ID="Detector:0:1" Offset="0.0" Type="PMT" Voltage="391.2661195779601"/>
@@ -290,3 +290,4 @@
         </Pixels>
     </Image>
 </OME>
+
